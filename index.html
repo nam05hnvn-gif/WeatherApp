@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Weather App</h1>
+    </div>
+    <div class="main">
+        <div class="description">
+            <h2>Mô tả:</h2>
+            <p>Ứng dụng thời tiết đơn giản hiển thị thông tin thời tiết hiện tại dựa trên vị trí của người dùng. 
+                Độ chính xác lên tới 99.99% (không tin có thể kiểm tra). Sai thế đéo nào được.
+            </p>
+        </div>
+        <form id="name_form">
+            <label for="name_input">Tên của bạn:</label>
+            <input type="text" id="name_input" placeholder="Nhập tên của bạn" required>
+        </form>
+        <p id="troll"></p>
+        <form id="location_form">
+            <label for="location_input">Vị trí của bạn:</label>
+            <input type="text" id="location_input" placeholder="Nhập vị trí của bạn">
+        </form>
+        <div class="weather_info">
+            <h2 id="ten">Ten</h2>
+            <p id="nhiet_do">Nhiệt độ</p>
+            <p id="chi_tiet">Chi tiết</p>
+            <p id="do_am">Độ ẩm</p>
+            <p id="gio">Tốc độ gió</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
